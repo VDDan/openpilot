@@ -65,13 +65,13 @@ class AlertManager(object):
         "",
         "",
         AlertStatus.normal, AlertSize.none,
-        Priority.MID, None, "beepSingle", .2, 0., 0.),
+        Priority.MID, None, None, .2, 0., 0.),
 
     "disable": Alert(
         "",
         "",
         AlertStatus.normal, AlertSize.none,
-        Priority.MID, None, "beepSingle", .2, 0., 0.),
+        Priority.MID, None, None, .2, 0., 0.),
 
     "fcw": Alert(
         "Brake!",
@@ -125,7 +125,7 @@ class AlertManager(object):
         "Be ready to take over at any time",
         "Always keep hands on wheel and eyes on road",
         AlertStatus.normal, AlertSize.mid,
-        Priority.LOWEST, None, None, 0., 0., 15.),
+        Priority.LOWEST, None, None, 0., 0., 8.),
 
     "ethicalDilemma": Alert(
         "TAKE CONTROL IMMEDIATELY",
